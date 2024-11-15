@@ -1,0 +1,5 @@
+<!-- File: res/values/colors.xml -->
+<resources>
+    <color name="green">#4CAF50</color> <!-- Success Color -->
+    <color name="red">#F44336</color>   <!-- Failure Color -->
+</resources>

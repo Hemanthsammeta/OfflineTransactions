@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- EditText for entering the amount -->
+    <EditText
+        android:id="@+id/amountField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/amount_label"
+        android:inputType="numberDecimal"
+        android:importantForAccessibility="yes"
+        android:contentDescription="@string/amount_label"/>
+
+    <!-- EditText for entering the phone number -->
+    <EditText
+        android:id="@+id/phoneNumberField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone_number_label"
+        android:inputType="phone"
+        android:importantForAccessibility="yes"
+        android:contentDescription="@string/phone_number_label"/>
+
+    <!-- Button to send the transaction -->
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send_button"
+        android:layout_marginTop="16dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="@string/send_button"/>
+
+    <!-- TextView to display transaction status -->
+    <TextView
+        android:id="@+id/statuse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/status_label"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="@string/status_label"/>
+
+    <!-- TextView to display Bluetooth status -->
+    <TextView
+        android:id="@+id/bluetoothStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/transaction_successful"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Bluetooth Status"/>
+
+</LinearLayout>
