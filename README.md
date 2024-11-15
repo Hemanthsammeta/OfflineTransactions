@@ -24,6 +24,7 @@ The **Offline Transactions App** enables users to make and track financial trans
 
 **2. Install Python dependencies:**
     pip install flask scikit-learn
+
   **Start the Flask server:**
     python app.py
 
