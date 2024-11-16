@@ -18,7 +18,7 @@ The **Offline Transactions App** enables users to make and track financial trans
 ## Installation
 
 1. Clone this repository:
-   git clone https://github.com/Hemanthsammeta/offline-transactions-app.git
+   git clone https://github.com/Hemanthsammeta/offline-transactions.git
 
    Set up the backend:
 
